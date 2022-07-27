@@ -1,0 +1,202 @@
+/**{*/
+/*    margin: 0 auto;*/
+/*}*/
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: lightblue;
+}
+.menu{
+    height: 50px;
+    width: 30%;
+    background-color: aquamarine;
+    float: left;
+}
+.menu li{
+    list-style: none;
+}
+.user{
+    float: right;
+    height: 50px;
+    width: 200px;
+    padding-top: 10px;
+}
+/*------------------------------------------------------------------------USER*/
+.butt{
+    height: 32px;
+    width: 120px;
+    border: 1px solid blanchedalmond;
+}
+.butt_1{
+    width: 80%;
+    height: 30px;
+    background-color: cornflowerblue;
+    font-weight: bold;
+    color: white;
+    float: right;
+}
+.butt_2{
+    width: 80%;
+    height: 30px;
+    background-color: #38c172;
+    font-weight: bold;
+    color: white;
+    float: right;
+}
+/*#user_content tr{*/
+/*    height: 45px;*/
+/*}*/
+/*#user_content th, #user_content td{*/
+/*    padding-left: 15px;*/
+/*}*/
+/*#user_content tr:nth-child(even) {background: #FFF}*/
+/*#user_content tr:nth-child(odd) {background: #CCC}*/
+.pagination{
+    display: inline-flex;
+}
+.page-item.active .page-link{
+    color: #fff;
+    background-color: red;
+    border-color: #007bff;
+}
+#myModal input, #myPopup input{
+    height: 30px;
+    width: 200px;
+}
+/*-----------------------------------------------------------PRODUCT*/
+.butt{
+    height: 32px;
+    width: 120px;
+    border: 1px solid blanchedalmond;
+}
+.butt_1{
+    width: 80%;
+    height: 30px;
+    background-color: cornflowerblue;
+    font-weight: bold;
+    color: white;
+    float: right;
+}
+.butt_2{
+    width: 80%;
+    height: 30px;
+    background-color: #38c172;
+    font-weight: bold;
+    color: white;
+    float: right;
+}
+/*#product_content tr{*/
+/*    height: 45px;*/
+/*}*/
+/*#product_content th, #product_content td{*/
+/*    padding-left: 15px;*/
+/*}*/
+/*#product_content tr:nth-child(even) {background: #FFF}*/
+/*#product_content tr:nth-child(odd) {background: #CCC}*/
+.pagination{
+    display: inline-flex;
+}
+.page-item.active .page-link{
+    color: #fff;
+    background-color: red;
+    border-color: #007bff;
+}
+/*--------------------------------------------EDIT PRODUCT*/
+.edit_product tr, textarea{
+    height: 35px;
+}
+.edit_product th, .edit_product td{
+    padding-left: 15px;
+}
+textarea{
+    height: 175px;
+    width: 250px;
+}
+#img_src{
+    height: 200px;
+    width: 350px;
+    border-radius: 20px;
+}
+/*-------------------------------------------------UPDATE PRODUCT*/
+ .edit_product tr, textarea{
+     height: 35px;
+ }
+.edit_product th, .edit_product td{
+    padding-left: 15px;
+}
+textarea{
+    height: 175px;
+    width: 250px;
+}
+#img_src{
+    height: 200px;
+    width: 350px;
+    border-radius: 20px;
+}
+/*----------------------------------------------CUSTOMER*/
+.butt{
+    height: 32px;
+    width: 120px;
+    border: 1px solid blanchedalmond;
+}
+.butt_1{
+    width: 80%;
+    height: 30px;
+    background-color: cornflowerblue;
+    font-weight: bold;
+    color: white;
+    float: right;
+}
+.butt_2{
+    width: 80%;
+    height: 30px;
+    background-color: #38c172;
+    font-weight: bold;
+    color: white;
+    float: right;
+}
+/*#customer_content tr{*/
+/*    height: 45px;*/
+/*}*/
+/*#customer_content th, #customer_content td{*/
+/*    padding-left: 15px;*/
+/*}*/
+/*#customer_content tr:nth-child(even) {background: #FFF}*/
+/*#customer_content tr:nth-child(odd) {background: #CCC}*/
+.pagination{
+    display: inline-flex;
+}
+.page-item.active .page-link{
+    color: #fff;
+    background-color: red;
+    border-color: #007bff;
+}
+#myModal input[type=email],#myModal input[type=text], #myPopup input{
+    height: 30px;
+    width: 200px;
+}
+#myModal input[type=radio] {
+    border: 0px;
+    width: 15px;
+    height: 15px;
+}
+/*------------------------------------------------------LIST IMPORT*/
+#customer_content tr{
+    height: 45px;
+}
+#customer_content th, #customer_content td{
+    padding-left: 15px;
+}
+#list_imports tr:nth-child(even) {background: #FFF}
+#list_imports tr:nth-child(odd) {background: #CCC}
+
+/*-------------------------------------------------------EDIT PRODUCT*/
+#exit_edit_product{
+    width: 80px; height: 45px;
+    background: lightblue;
+    border-radius: 10px;
+    margin-left: 900px;
+    text-align: center;
+    padding-top: 5px;
+}
+

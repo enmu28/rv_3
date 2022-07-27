@@ -1,0 +1,31 @@
+*{
+    margin: 0 auto;
+}
+body{
+    background-color: lightblue;
+}
+.content{
+    height: 400px;
+    width: 800px;
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 10px;
+}
+input[type=email],input[type=password]{
+    border-width: 0;
+    float: right;
+}
+input[type=email]:focus, input[type=password]:focus{
+    outline: none;
+}
+.inc{
+    border: 1px solid black;
+    width: 306px;
+    height: 35px;
+    border-radius: 5px;
+}
+.err{
+    width: 300px;
+    height: 30px;
+    color: red;
+}

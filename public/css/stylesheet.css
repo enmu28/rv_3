@@ -1,0 +1,14 @@
+#footer a{
+    text-decoration: none;
+    color: white;
+}
+#footer a:hover, a:hover{
+    text-decoration: none;
+    color: #b8a2e0;
+}
+a{
+    text-decoration: none;
+}
+.list-group a{
+    color: #888888;
+}
